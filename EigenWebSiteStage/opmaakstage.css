@@ -26,7 +26,9 @@ nav{
      color: #ff6347;
  }
  body{
-    background-color: #ecf0f1
+    background-color: #ecf0f1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
  }
  #sectioninleiding{
      background-color: #ffffff;
@@ -40,5 +42,27 @@ nav{
      text-align: center;
      font-size: 24px;
      color: #2d3e50;
+ }
+ section{
+    background-color: #ffffff;
+    width: 70%;
+    height: 50%;
+    margin-left: 180px;
+    border: 3px solid #2d3e50;
+    border-radius: 5px;
+    margin-top: 30px;
+ }
+ img{
+   padding: 10PX 10PX 10PX 10PX;
+    width: 50%;
+    height:50%;
+   
+ }
+ #foto{
+    height: 40%;
+    width: 40%;
+    text-align: center;
+    margin-left: 25%;
+
  }
  
