@@ -24,6 +24,7 @@ li {
 a {
     text-decoration: none;
     color: white;
+    padding: 15px;
 }
 
 a:hover {
@@ -33,7 +34,8 @@ a:hover {
 body {
     background-color: #ecf0f1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    margin: 0;
+    padding: 0;
 }
 
 #sectioninleiding {
@@ -92,6 +94,32 @@ img {
 header {
     margin: 0px;
 }
-aside{
-  
+
+aside {
+    float: right;
+    width: 30%;
+
+
+}
+
+#dag1 {
+    width: 100%;
+    height:919px ;
+    border: solid 2px black;
+    border-radius: 5PX;
+margin-top: 30px;
+}
+
+article {
+    width: 70%;
+    
+}
+#Index{
+    margin-left: 150px;
+}
+footer{
+background-color: #2d3e50;;
+height: 50px;
+border: 3px solid #2d3e50;
+border-radius: 5px;
 }
