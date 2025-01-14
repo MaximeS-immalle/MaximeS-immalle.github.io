@@ -1,49 +1,57 @@
-nav{ 
+nav {
     margin: 0px;
-   
+
     border: 3px solid #2d3e50;
     border-radius: 5px;
     background-color: #3a4a63;
- }
- nav ul.nav-menu {
-     display: flex;
-     list-style: none;        
-     margin: 0;
-     padding: 20px;
-     
- }
- li{
-     margin: auto;
-     border: 3px solid #2d3e50;
-     border-radius: 5px;
-     background-color: #4a5c73;
- }
- a{
-     text-decoration: none;
-     color: white;
- }
- a:hover{
-     color: #ff6347;
- }
- body{
+}
+
+nav ul.nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+
+}
+
+li {
+    margin: auto;
+    border: 3px solid #2d3e50;
+    border-radius: 5px;
+    background-color: #4a5c73;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #ff6347;
+}
+
+body {
     background-color: #ecf0f1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
- }
- #sectioninleiding{
-     background-color: #ffffff;
-     width: 80%;
-     height: 50%;
-     margin-left: 180px;
-     border: 3px solid #2d3e50;
-     border-radius: 5px;
- }
- h1{
-     text-align: center;
-     font-size: 24px;
-     color: #2d3e50;
- }
- section{
+
+}
+
+#sectioninleiding {
+    background-color: #ffffff;
+    width: 80%;
+    height: 50%;
+    margin-left: 180px;
+    border: 3px solid #2d3e50;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #2d3e50;
+}
+
+section {
     background-color: #ffffff;
     width: 80%;
     height: 50%;
@@ -51,32 +59,39 @@ nav{
     border: 3px solid #2d3e50;
     border-radius: 5px;
     margin-top: 30px;
- }
- img{
-    
+}
+
+img {
+
     width: 50%;
-    height:50%;
-   
- }
- #foto{
+    height: 50%;
+
+}
+
+#foto {
     height: 40%;
     width: 40%;
     text-align: center;
     margin-left: 25%;
 
- }
- #fotohome{
-   width: 100%; 
-   height: 400PX;
-   margin: 0px;
- }
- #sectiehome{
-    width: 100%;
-border: none;
-background-color: #ecf0f1;
+}
 
- }
- header{
+#fotohome {
+    width: 100%;
+    height: 400PX;
     margin: 0px;
- }
- 
+}
+
+#sectiehome {
+    width: 100%;
+    border: none;
+    background-color: #ecf0f1;
+
+}
+
+header {
+    margin: 0px;
+}
+aside{
+  
+}
