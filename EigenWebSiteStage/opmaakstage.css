@@ -160,3 +160,7 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+#fotocontact{
+    width: 100%;
+    height: 50%;
+}
