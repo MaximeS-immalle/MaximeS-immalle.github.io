@@ -8,17 +8,17 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #333;
-    background-color: #f5f5f5; /* Lichte achtergrond om het contrast te verhogen */
+    background-color: #f8f8f8; /* Iets lichtere achtergrond voor meer verfijning */
     line-height: 1.6;
 }
 
 /* Header Styling */
 header {
-    background: #333; /* Donkere achtergrond om het zwart te benadrukken */
+    background: #222; /* Dieper zwart voor een strak effect */
     color: white;
     padding: 2rem 0;
     text-align: center;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Zachte schaduw voor diepte */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Meer uitgesproken schaduw */
 }
 
 header .container {
@@ -33,28 +33,28 @@ header .container {
     height: 80px;
     width: auto;
     border-radius: 50%;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Schaduweffect voor logo */
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4); /* Diepere schaduw voor modern effect */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .logo:hover {
     transform: scale(1.1);
-    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.4); /* Versterkte schaduw bij hover */
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.5); /* Sterker hover-effect */
 }
 
 header h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin: 0;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
-    letter-spacing: 1px; /* Ruimte tussen letters voor een strakkere uitstraling */
+    letter-spacing: 1.5px; /* Meer ruimte tussen letters */
 }
 
 /* Navigatie Styling */
 nav {
-    background: #444; /* Donkere achtergrond voor navigatiebalk */
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    background: #333;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
     padding: 1rem 0;
 }
 
@@ -74,16 +74,16 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    padding: 0.5rem 1.2rem;
+    padding: 0.7rem 1.5rem;
     border-radius: 30px;
     transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
 
 nav ul li a:hover,
 nav ul li a.active {
-    background: #bbb; /* Zachte grijze tint bij hover en actieve status */
-    color: #222;
-    transform: scale(1.05);
+    background: #555; /* Donkerdere hoverkleur */
+    color: #f0f0f0;
+    transform: scale(1.1);
 }
 
 /* Secties */
@@ -91,85 +91,66 @@ section {
     padding: 3rem 2rem;
     background: #fff;
     margin: 2rem auto;
-    border-radius: 15px;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); /* Subtiele schaduw */
+    border-radius: 20px; /* Iets grotere hoeken */
+    box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.1); /* Verfijnde schaduw */
     max-width: 900px;
     text-align: left;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 section:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.2);
+    transform: translateY(-7px);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 section h2 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     color: #333;
     margin-bottom: 1.5rem;
     font-weight: 600;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.8px;
 }
 
 section p {
-    font-size: 1.2rem;
-    color: #666; /* Grijze tekst voor minder contrast */
+    font-size: 1.3rem;
+    color: #555;
     margin-bottom: 1.5rem;
-    line-height: 1.8;
-}
-
-/* Lijsten zonder opsommingstekens */
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-ul li {
-    font-weight: bold;
-    margin-bottom: 15px;
-    color: #333;
-    font-size: 1.1rem;
-}
-
-ul li span {
-    font-weight: normal;
-    color: #777;
+    line-height: 1.9;
 }
 
 /* Kaarten-styling */
 .card {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 15px;
-    padding: 1.5rem;
+    background: #f9f9f9; /* Subtiele achtergrondkleur */
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    padding: 2rem;
     margin: 1.5rem 0;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
     transform: translateY(-10px);
-    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.15);
 }
 
 .card h3 {
     margin-bottom: 1rem;
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: #333;
     font-weight: 600;
 }
 
 .card p {
     margin: 1rem 0;
-    color: #666; /* Lichtere tekstkleur */
-    font-size: 1.1rem;
+    color: #666;
+    font-size: 1.2rem;
 }
 
 .cards-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 2.5rem;
     justify-content: center;
     padding: 2rem;
 }
@@ -177,67 +158,27 @@ ul li span {
 /* Knoppen */
 .btn {
     display: inline-block;
-    background: #333; /* Donkere knopstijl */
+    background: #222;
     color: white;
     text-decoration: none;
-    padding: 12px 25px;
+    padding: 12px 30px;
     border-radius: 30px;
     font-weight: bold;
-    transition: background 0.3s ease, transform 0.3s ease;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
     margin-top: 1rem;
     text-transform: uppercase;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .btn:hover {
-    background: #444; /* Grijze tint voor hover */
+    background: #444;
     transform: scale(1.1);
-}
-
-/* Formulier */
-form {
-    display: grid;
-    gap: 1.5rem;
-    max-width: 600px;
-    margin: 2rem auto;
-    text-align: left;
-    background: #fff;
-    border-radius: 15px;
-    padding: 2rem;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
-}
-
-form input, form textarea {
-    width: 100%;
-    padding: 0.9rem;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    font-size: 1.1rem;
-    transition: border 0.3s ease;
-}
-
-form input:focus, form textarea:focus {
-    border-color: #333; /* Focus op donkergrijze rand */
-}
-
-form button {
-    background: #333; /* Donkere knopkleur */
-    color: white;
-    border: none;
-    padding: 0.8rem 1.5rem;
-    font-size: 1.1rem;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: background 0.3s ease, transform 0.3s ease;
-}
-
-form button:hover {
-    background: #444; /* Grijze hover voor knop */
-    transform: scale(1.05);
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
 }
 
 /* Footer */
 footer {
-    background: #333;
+    background: #222;
     color: white;
     text-align: center;
     padding: 2rem 0;
@@ -245,18 +186,19 @@ footer {
 }
 
 footer a {
-    color: #fff;
+    color: #bbb;
     text-decoration: none;
     margin: 0 15px;
     font-size: 1.2rem;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
 footer a:hover {
-    color: #bbb; /* Zachte grijze kleur bij hover */
+    color: #fff;
+    transform: scale(1.1);
 }
 
-/* Media queries voor mobielvriendelijkheid */
+/* Media queries */
 @media (max-width: 768px) {
     header .container {
         flex-direction: column;
@@ -274,35 +216,45 @@ footer a:hover {
     .cards-container {
         flex-direction: column;
     }
+
+    .testimonial-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
 }
+
 /* Testimonial sectie */
 #testimonial {
-    background-color: #fff;
-    padding: 40px 15px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
     margin-top: 40px;
     text-align: center;
 }
 
 .testimonial-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .testimonial {
     background-color: #f1f1f1;
     padding: 20px;
-    border-radius: 8px;
-    width: 45%;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
 }
 
 .testimonial p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #555;
     font-style: italic;
 }
+
 /* Social media icoontjes */
 .footer-container {
     text-align: center;
@@ -312,17 +264,17 @@ footer a:hover {
 .social-icons {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
 }
 
 .social-icon {
-    width: 32px; /* Klein formaat */
-    height: 32px; /* Klein formaat */
+    width: 36px;
+    height: 36px;
     object-fit: contain;
     transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 .social-icon:hover {
-    transform: scale(1.1); /* Vergroot icoon bij hover */
-    filter: brightness(1.2); /* Maak het icoon wat lichter bij hover */
+    transform: scale(1.15);
+    filter: brightness(1.3);
 }
